@@ -5,10 +5,7 @@ title: Monet to photo (512, Small IDT, Cherrypicked, Train)
 {{ page.title }}
 ================
 
-<p class="meta">Mar 24th, 2017</p>
-
-Test Result
-========================================================
+<p class="meta"> Some successful results of Monet to Photo</p>
 
 | id | Monet | Photo |
 |---:|:---------:|:----------:|
