@@ -1,14 +1,9 @@
 ---
 layout: post
-title: Monet to photo (512, small idt loss)
+title: Monet to photo (Train Set)
 ---
 {{ page.title }}
 ================
-
-<p class="meta">Mar 24th, 2017</p>
-
-Test Result
-========================================================
 
 | id | Monet | Photo |
 |---:|:---------:|:----------:|
