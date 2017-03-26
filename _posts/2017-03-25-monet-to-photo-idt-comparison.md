@@ -1,16 +1,11 @@
 ---
 layout: post
-title: Monet to photo. Comparison of Identity Loss (Correct aspect ratio)
+title: Effect of adding the identity mapping loss on Monet to Photo
 ---
 {{ page.title }}
 ================
 
-<p class="meta">Mar 24th, 2017</p>
-
-Result
-========================================================
-
-| id | Real | Without Identity Loss | With Identity Loss |
+| id | Input | Without Identity Loss | With Identity Loss |
 |---:|:---------:|:----------:|:----------:|
 | 00755.png | ![]({{site.baseurl}}/images/monet-to-photo-360-idt-comparison/small_idt/real_A/00755_360.png) | ![]({{site.baseurl}}/images/monet-to-photo-360-idt-comparison/no_idt/00755_aspectratio.png) | ![]({{site.baseurl}}/images/monet-to-photo-360-idt-comparison/small_idt/fake_B/00755_360.png) |
 | 00911.png | ![]({{site.baseurl}}/images/monet-to-photo-360-idt-comparison/small_idt/real_A/00911_360.png) | ![]({{site.baseurl}}/images/monet-to-photo-360-idt-comparison/no_idt/00911_aspectratio.png) | ![]({{site.baseurl}}/images/monet-to-photo-360-idt-comparison/small_idt/fake_B/00911_360.png) |

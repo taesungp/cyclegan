@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monet to photo (512, Small IDT, Cherrypicked, Train)
+title: Monet to photo (Good Results)
 ---
 {{ page.title }}
 ================
