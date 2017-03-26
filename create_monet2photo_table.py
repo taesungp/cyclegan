@@ -75,5 +75,26 @@ def show_idt_comparison():
           (nameonly, dir_name,nameonly, dir_name,nameonly, 
            dir_name,nameonly))
 
+def show_gatys_comparison():
+  dir_name = 'gatys-comparison/resized'
+  indices = [110, 112, 116, 117, 119, 11, 121, 131, 134, 136, 143, 146, 150, 151, 152,
+             160, 164, 168, 170, 171, 178, 17, 183, 185, 189, 18, 192, 194, 195, 197,
+             203, 204, 205,33, 39, 3, 44, 45, 55, 52, 56, 65, 6, 73, 75, 7, 85, 87, 89,
+             96, 98]
+  indices.sort()
+  artists = ['vangogh', 'ukiyoe']  
+  for index in indices:
+    for artist in artists:
+      print("| ![]({{site.baseurl}}/images/%s/%d_content.png) | ![]({{site.baseurl}}/images/%s/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_0.png) |![]({{site.baseurl}}/images/%s/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_style_%s_total.png) |" % 
+            (dir_name, index, 
+             dir_name, index, artist,
+             dir_name, index, artist,
+             dir_name, index, artist,
+             dir_name, index, artist,
+             dir_name, index, artist
+           ))
+
+
 #show_idt_comparison()
-show_both_directions()
+#show_both_directions()
+show_gatys_comparison()
