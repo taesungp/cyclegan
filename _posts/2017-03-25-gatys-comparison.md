@@ -5,8 +5,8 @@ title: Comparison with Gatys et al. (Style Transfer)
 {{ page.title }}
 ================
 
-| Original | Style Image 1 | Result of Style Image 1 | Style Image 2 | Result of Style Image 2 | Using the entire set | Our Result |
-|:---:|:---------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| Artist or Genre | Original | Style Image 1 | Result of Style Image 1 | Style Image 2 | Result of Style Image 2 | Using the entire set | Our Result |
+|---:|:---:|:---------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | vangogh | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_content.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/resized_128/3_style_vangogh_0.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_result_vangogh_0.png) |![]({{site.baseurl}}/images/gatys-comparison/resized/resized_128/3_style_vangogh_1.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_result_vangogh_1.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_result_vangogh_total.png) |
 | ukiyoe | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_content.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/resized_128/3_style_ukiyoe_0.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_result_ukiyoe_0.png) |![]({{site.baseurl}}/images/gatys-comparison/resized/resized_128/3_style_ukiyoe_1.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_result_ukiyoe_1.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/3_result_ukiyoe_total.png) |
 | vangogh | ![]({{site.baseurl}}/images/gatys-comparison/resized/6_content.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/resized_128/6_style_vangogh_0.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/6_result_vangogh_0.png) |![]({{site.baseurl}}/images/gatys-comparison/resized/resized_128/6_style_vangogh_1.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/6_result_vangogh_1.png) | ![]({{site.baseurl}}/images/gatys-comparison/resized/6_result_vangogh_total.png) |
