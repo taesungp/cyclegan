@@ -8,7 +8,7 @@ from scipy import misc
 
 dir_name = 'monet-to-photo-512-small-idt-testset'
 
-def show_all():
+def show_one_direction():
   idx = 0
   for filename in glob.glob(os.path.join("images/" + dir_name + "/real_A/", "*.png")):
     nameonly = os.path.basename(filename)
@@ -18,6 +18,22 @@ def show_all():
     print("| %s | ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | " % 
           (nameonly, dir_name,nameonly, 
            dir_name,nameonly))
+
+def show_both_directions():
+  dir_name = 'summer-to-winter-yosemite'
+  idx = 0  
+  for filename in glob.glob(os.path.join("images/" + dir_name + "/real_A/", "*.jpg")):
+    nameonly = os.path.basename(filename)
+    idx += 1
+    
+    ## Style transfer
+    print("| ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | ![]({{site.baseurl}}/images/%s/real_B/%s) | ![]({{site.baseurl}}/images/%s/fake_A/%s) |" % 
+          (dir_name,nameonly, 
+           dir_name,nameonly,
+           dir_name,nameonly,
+           dir_name,nameonly,
+         ))
+  
 
   
 def show_cherrypick():
@@ -60,4 +76,4 @@ def show_idt_comparison():
            dir_name,nameonly))
 
 #show_idt_comparison()
-show_all()
+show_both_directions()
