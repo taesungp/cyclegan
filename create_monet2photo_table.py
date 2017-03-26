@@ -85,7 +85,7 @@ def show_gatys_comparison():
   artists = ['vangogh', 'ukiyoe']  
   for index in indices:
     for artist in artists:
-      print("| ![]({{site.baseurl}}/images/%s/%d_content.png) | ![]({{site.baseurl}}/images/%s/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_0.png) |![]({{site.baseurl}}/images/%s/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_style_%s_total.png) |" % 
+      print("| ![]({{site.baseurl}}/images/%s/%d_content.png) | ![]({{site.baseurl}}/images/%s/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_0.png) |![]({{site.baseurl}}/images/%s/%d_style_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_total.png) |" % 
             (dir_name, index, 
              dir_name, index, artist,
              dir_name, index, artist,
