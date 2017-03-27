@@ -185,6 +185,17 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_B/2012-06-14-05-38-40.jpg)  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_A/2012-06-14-05-38-40.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_B/2012-06-14-05-38-40.jpg) |
 
 
+Style Transfer (Test Set)
+==============================
+
+| Artist | Original | Style Transferred | Reconstruction |
+|:---:|:---:|:---:|:---:|
+| | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/1.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/1.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/1.jpg) |
+| | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/10.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/10.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/10.jpg) |
+| | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/20.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/20.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/20.jpg) |
+| Monet | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_rec_B.jpg) |
+
+
 
 
 
