@@ -5,7 +5,7 @@ import numpy as np
 from scipy import misc
 
 dir_name = 'maps-comparison'
-methods = ['bigan', 'cogan', 'cycle', 'pix2pix']
+methods = ['bigan', 'cogan', 'feature_loss', 'l1', 'cycle', 'pix2pix']
 subdirs = ['aerial2map', 'map2aerial']
 
 for filename in glob.glob('images/%s/%s/gt/*.jpg' % (dir_name,subdirs[0])):
