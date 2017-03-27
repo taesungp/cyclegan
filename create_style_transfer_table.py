@@ -7,7 +7,7 @@ from scipy import misc
 import random
 
 idx = 0
-dir_name = 'style-transfer-alyosha'
+dir_name = 'style-transfer-train'
 for filename in glob.glob(os.path.join("images/" + dir_name + "/original/", "*.jpg")):
   nameonly = os.path.basename(filename)
   idx += 1
@@ -21,8 +21,8 @@ for filename in glob.glob(os.path.join("images/" + dir_name + "/original/", "*.j
   else:
     
     ## Style transfer
-    print(("| %d | ![]({{site.url}}/images/%s/original/%s) | ![]({{site.url}}/images/%s/%s/%s) | ![]({{site.url}}/images/%s/%s/%s) |" + 
-           "| ![]({{site.url}}/images/%s/%s/%s) | ![]({{site.url}}/images/%s/%s/%s) |") % 
+    print(("| %d | ![]({{site.baseurl}}/images/%s/original/%s) | ![]({{site.baseurl}}/images/%s/%s/%s) | ![]({{site.baseurl}}/images/%s/%s/%s) " + 
+           "| ![]({{site.baseurl}}/images/%s/%s/%s) | ![]({{site.baseurl}}/images/%s/%s/%s) |") % 
           (idx, dir_name,nameonly, 
            dir_name, 'ukiyoe', nameonly,
            dir_name, 'vangogh', nameonly,
