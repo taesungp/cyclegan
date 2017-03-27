@@ -20,8 +20,6 @@ From the movie Beauty and the Beast, 2017.
 | 8 | ![]({{site.baseurl}}/images/movie-to-renoir/original/19.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/19.jpg) | )
 | 9 | ![]({{site.baseurl}}/images/movie-to-renoir/original/15.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/15.jpg) | )
 | 10 | ![]({{site.baseurl}}/images/movie-to-renoir/original/13.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/13.jpg) | )
-| 11 | ![]({{site.baseurl}}/images/movie-to-renoir/original/21.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/21.jpg) | )
-| 12 | ![]({{site.baseurl}}/images/movie-to-renoir/original/5.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/5.jpg) | )
 | 13 | ![]({{site.baseurl}}/images/movie-to-renoir/original/10.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/10.jpg) | )
 | 14 | ![]({{site.baseurl}}/images/movie-to-renoir/original/12.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/12.jpg) | )
 | 15 | ![]({{site.baseurl}}/images/movie-to-renoir/original/1.jpg) | ![]({{site.baseurl}}/images/movie-to-renoir/renoir/1.jpg) | )
