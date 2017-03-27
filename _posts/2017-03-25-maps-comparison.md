@@ -5,6 +5,8 @@ title: Comparison of different methods on the Google Maps/Aerial Photos dataset
 {{ page.title }}
 ================
 
+* pix2pix is based on aligned method. 
+
 | Input | BiGAN | CoGAN | CycleGAN | pix2pix | Ground Truth |
 |:---:|:---------:|:----------:|:----------:|:---------:|:----------:|
 | ![]({{site.baseurl}}/images/maps-comparison/map2aerial/gt/250.jpg) | ![]({{site.baseurl}}/images/maps-comparison/aerial2map/bigan/250.jpg) | ![]({{site.baseurl}}/images/maps-comparison/aerial2map/cogan/250.jpg) | ![]({{site.baseurl}}/images/maps-comparison/aerial2map/cycle/250.jpg) | ![]({{site.baseurl}}/images/maps-comparison/aerial2map/pix2pix/250.jpg) | ![]({{site.baseurl}}/images/maps-comparison/aerial2map/gt/250.jpg) |
