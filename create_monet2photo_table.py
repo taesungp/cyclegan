@@ -82,7 +82,7 @@ def show_gatys_comparison():
              203, 204, 205,33, 39, 3, 44, 45, 55, 52, 56, 65, 6, 73, 75, 7, 85, 87, 89,
              96, 98]
   indices.sort()
-  artists = ['vangogh', 'ukiyoe']  
+  artists = ['vangogh', 'ukiyoe','cezanne','monet']  
   for index in indices:
     for artist in artists:
       print("| %s | ![]({{site.baseurl}}/images/%s/%d_content.png) | ![]({{site.baseurl}}/images/%s/resized_128/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_0.png) |![]({{site.baseurl}}/images/%s/resized_128/%d_style_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_total.png) | ![]({{site.baseurl}}/images/%s/%s/%d.jpg) |" % 
