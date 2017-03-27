@@ -5,7 +5,7 @@ title: Style Transfer result on the test set
 {{ page.title }}
 ================
 
-| id | Photo | Monet | Van Gogh | Ukiyo-e | Cezanne |
+| id | Photo | Ukiyo-e | Van Gogh | Cezanne | Monet |
 |---:|:---------:|:----------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.url}}/images/style-transfer-test/original/01220.jpg) | ![]({{site.url}}/images/style-transfer-test/ukiyoe/01220.jpg) | ![]({{site.url}}/images/style-transfer-test/vangogh/01220.jpg) || ![]({{site.url}}/images/style-transfer-test/cezanne/01220.jpg) | ![]({{site.url}}/images/style-transfer-test/monet/01220.jpg) |
 | 2 | ![]({{site.url}}/images/style-transfer-test/original/01200.jpg) | ![]({{site.url}}/images/style-transfer-test/ukiyoe/01200.jpg) | ![]({{site.url}}/images/style-transfer-test/vangogh/01200.jpg) || ![]({{site.url}}/images/style-transfer-test/cezanne/01200.jpg) | ![]({{site.url}}/images/style-transfer-test/monet/01200.jpg) |
