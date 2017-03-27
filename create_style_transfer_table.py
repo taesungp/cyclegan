@@ -7,7 +7,7 @@ from scipy import misc
 import random
 
 idx = 0
-dir_name = 'style-transfer-train'
+dir_name = 'style-transfer-alyosha'
 for filename in glob.glob(os.path.join("images/" + dir_name + "/original/", "*.jpg")):
   nameonly = os.path.basename(filename)
   idx += 1
