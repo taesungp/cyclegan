@@ -20,12 +20,16 @@ for filename in glob.glob('images/%s/%s/gt/*.jpg' % (dir_name,subdirs[0])):
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
+         "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
+         "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) |") %
         (dir_name,theotherdir,'gt',nameonly,
          dir_name,subdir,methods[0],nameonly,
          dir_name,subdir,methods[1],nameonly,
          dir_name,subdir,methods[2],nameonly,
          dir_name,subdir,methods[3],nameonly,
+         dir_name,subdir,methods[4],nameonly,
+         dir_name,subdir,methods[5],nameonly,
          dir_name,subdir,'gt',nameonly,
        ))
 
@@ -38,12 +42,16 @@ for filename in glob.glob('images/%s/%s/gt/*.jpg' % (dir_name,subdirs[0])):
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
+         "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
+         "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) " +
          "| ![]({{site.baseurl}}/images/%s/%s/%s/%s) |") %
         (dir_name,theotherdir,'gt',nameonly,
          dir_name,subdir,methods[0],nameonly,
          dir_name,subdir,methods[1],nameonly,
          dir_name,subdir,methods[2],nameonly,
          dir_name,subdir,methods[3],nameonly,
+         dir_name,subdir,methods[4],nameonly,
+         dir_name,subdir,methods[5],nameonly,
          dir_name,subdir,'gt',nameonly,
        ))
 

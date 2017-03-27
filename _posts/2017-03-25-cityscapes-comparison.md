@@ -1,4 +1,4 @@
-`---
+---
 layout: post
 title: Comparison of different methods on the Cityscapes dataset
 ---

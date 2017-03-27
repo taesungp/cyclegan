@@ -3,6 +3,7 @@ import glob
 import argparse
 import numpy as np
 from scipy import misc
+import random
 #from skimage import io, color
 
 
@@ -81,9 +82,9 @@ def show_gatys_comparison():
              160, 164, 168, 170, 171, 178, 17, 183, 185, 189, 18, 192, 194, 195, 197,
              203, 204, 205,33, 39, 3, 44, 45, 55, 52, 56, 65, 6, 73, 75, 7, 85, 87, 89,
              96, 98]
-  indices.sort()
+  random.shuffle(indices)
   artists = ['vangogh', 'ukiyoe','cezanne','monet']  
-  for index in indices:
+  for index in indices[:30]:
     for artist in artists:
       print("| %s | ![]({{site.baseurl}}/images/%s/%d_content.png) | ![]({{site.baseurl}}/images/%s/resized_128/%d_style_%s_0.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_0.png) |![]({{site.baseurl}}/images/%s/resized_128/%d_style_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_1.png) | ![]({{site.baseurl}}/images/%s/%d_result_%s_total.png) | ![]({{site.baseurl}}/images/%s/%s/%d.jpg) |" % 
             (artist, dir_name, index, 
