@@ -139,9 +139,50 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_B/monet_johnson_101_latest_real_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_A/monet_johnson_101_latest_fake_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_B/monet_johnson_101_latest_rec_B.jpg |
 
 
+Summer to Winter Yosemite
+=============================
+
+Train Set
+-------------------------------
+
+| Real Summer | Fake Winter | Reconstruction |
+|:---:|:---:|:---:|
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_A/2016-05-27-17-16-39.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_B/2016-05-27-17-16-39.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_A/2016-05-27-17-16-39.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_A/2011-06-17-06-31-03.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_B/2011-06-17-06-31-03.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_A/2011-06-17-06-31-03.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_A/2011-06-27-23-17-41.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_B/2011-06-27-23-17-41.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_A/2011-06-27-23-17-41.jpg | 
 
 
+Test Set
+------------------------------
 
+| Real Summer | Fake Winter | Reconstruction |
+|:---:|:---:|:---:|
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_A/2011-08-20-16-07-10.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_B/2011-08-20-16-07-10.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_A/2011-08-20-16-07-10.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_A/2015-09-09-22-12-40.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_B/2015-09-09-22-12-40.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_A/2015-09-09-22-12-40.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_A/2012-06-14-05-38-40.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_B/2012-06-14-05-38-40.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_A/2012-06-14-05-38-40.jpg | 
+
+
+Winter to Summer Yosemite
+=============================
+
+Train Set
+-------------------------------
+
+| Real Winter | Fake Summer | Reconstruction |
+|:---:|:---:|:---:|
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_B/2015-07-23-09-56-29.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_A/2015-07-23-09-56-29.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_B/2015-07-23-09-56-29.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_B/2016-09-14-03-30-15.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_A/2016-09-14-03-30-15.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_B/2016-09-14-03-30-15.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_B/2016-08-02-19-50-33.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_A/2016-08-02-19-50-33.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_B/2016-08-02-19-50-33.jpg |
+
+
+Test Set
+------------------------------
+
+| Real Winter | Fake Summer | Reconstruction |
+|:---:|:---:|:---:|
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_B/2011-08-20-16-07-10.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_A/2011-08-20-16-07-10.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_B/2011-08-20-16-07-10.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_B/2015-09-09-22-12-40.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_A/2015-09-09-22-12-40.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_B/2015-09-09-22-12-40.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_B/2012-06-14-05-38-40.jpg  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_A/2012-06-14-05-38-40.jpg | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_B/2012-06-14-05-38-40.jpg |
 
 
 

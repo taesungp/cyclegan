@@ -22,28 +22,32 @@ body {
   text-align: center;
 }
 
+
+
 h1 {
-    font-size: 200%;
+  font-size:160%;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 h2 {
-    font-size: 180%;
-}
-
-h3 {
-    font-size: 160%;
-}
-
-h4 {
     font-size: 140%;
 }
 
-h5 {
+h3 {
     font-size: 120%;
 }
 
+h4 {
+    font-size: 110%;
+}
+
+h5 {
+    font-size: 110%;
+}
+
 h6 {
-    font-size: 100%;
+    font-size: 110%;
 }
 
 /*h1, h2, h3, h4, h5, h6 {
@@ -51,10 +55,6 @@ h6 {
 }
 */
 
-h1 {
-  font-size:200%;
-  margin-bottom: 1em;
-}
 
 p {
   margin: 1em 0;
