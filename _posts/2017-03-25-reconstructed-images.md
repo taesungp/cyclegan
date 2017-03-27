@@ -5,11 +5,9 @@ title: Reconstructed Images from various datasets
 {{ page.title }}
 ================
 
-Monet to Photo
-===================================
+## Monet to Photo
 
-Train Set
---------------------------------------
+### Train Set
 
 | Real Monet | Fake Photo | Reconstruction |
 |:---:|:---:|:---------:|
@@ -17,8 +15,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/train/monet_johnson_1034_latest_real_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/train/monet_johnson_1034_latest_fake_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/train/monet_johnson_1034_latest_rec_A.jpg) |
 | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/train/monet_johnson_1039_latest_real_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/train/monet_johnson_1039_latest_fake_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/train/monet_johnson_1039_latest_rec_A.jpg) |
 
-Test Set
----------------------------------------------
+### Test Set
 
 | Real Monet | Fake Photo | Reconstruction |
 |:---:|:---:|:---------:|
@@ -27,11 +24,9 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_real_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_fake_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_rec_A.jpg) |
 
 
-Horse to Zebra
-===================================
+## Horse to Zebra
 
-Train Set
-----------------------------------
+### Train Set
 
 | Real Horse | Fake Zebra | Reconstruction |
 |:---:|:---:|:---------:|
@@ -39,8 +34,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/real_A/horse2zebra_1002_50_real_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/fake_B/horse2zebra_1002_50_fake_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/rec_A/horse2zebra_1002_50_rec_A.jpg) |
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/real_A/horse2zebra_1004_50_real_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/fake_B/horse2zebra_1004_50_fake_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/rec_A/horse2zebra_1004_50_rec_A.jpg) |
 
-Test Set
-----------------------------------
+### Test Set
 
 | Real Horse | Fake Zebra | Reconstruction |
 |:---:|:---:|:---------:|
@@ -48,11 +42,9 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/test/real_A/17.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/test/fake_B/17.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/test/rec_A/17.jpg) | 
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/test/real_A/28.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/test/fake_B/28.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/test/rec_A/28.jpg) | 
 
-Zebra to Horse
-===================================
+## Zebra to Horse
 
-Train Set
-----------------------------------
+### Train Set
 
 | Real Zebra | Fake Horse | Reconstruction |
 |:---:|:---:|:---------:|
@@ -60,8 +52,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/real_B/horse2zebra_1002_50_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/fake_A/horse2zebra_1002_50_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/rec_B/horse2zebra_1002_50_rec_B.jpg) |
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/real_B/horse2zebra_1004_50_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/fake_A/horse2zebra_1004_50_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/rec_B/horse2zebra_1004_50_rec_B.jpg) |
 
-Test Set
-----------------------------------
+### Test Set
 
 | Real Zebra | Fake Horse | Reconstruction |
 |:---:|:---:|:---------:|
@@ -71,11 +62,9 @@ Test Set
 
 
 
-Zebra to Horse
-===================================
+## Zebra to Horse
 
-Train Set
-----------------------------------
+### Train Set
 
 | Real Zebra | Fake Horse | Reconstruction |
 |:---:|:---:|:---------:|
@@ -83,8 +72,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/real_B/horse2zebra_1002_50_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/fake_A/horse2zebra_1002_50_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/rec_B/horse2zebra_1002_50_rec_B.jpg) |
 | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/real_B/horse2zebra_1004_50_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/fake_A/horse2zebra_1004_50_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/horse2zebra/train/rec_B/horse2zebra_1004_50_rec_B.jpg) |
 
-Test Set
-----------------------------------
+### Test Set
 
 | Real Zebra | Fake Horse | Reconstruction |
 |:---:|:---:|:---------:|
@@ -94,11 +82,9 @@ Test Set
 
 
 
-Apple to Orange
-======================================
+## Apple to Orange
 
-Train Set
------------------------------------------
+### Train Set
 
 | Real Apple | Fake Orange | Reconstruction |
 |:---:|:---:|:---------:|
@@ -107,8 +93,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_104_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_104_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_104_latest_rec_A.jpg)| 
 
 
-Test Set
------------------------------------------
+### Test Set
 
 | Real Apple | Fake Orange | Reconstruction |
 |:---:|:---:|:---------:|
@@ -116,11 +101,9 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_100_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_100_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_100_latest_rec_A.jpg)| 
 | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_101_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_101_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_101_latest_rec_A.jpg)|
 
-Orange to Apple
-======================================
+## Orange to Apple
 
-Train Set
------------------------------------------
+### Train Set
 
 | Real Orange | Fake Apple | Reconstruction |
 |:---:|:---:|:---------:|
@@ -129,8 +112,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_B/monet_johnson_104_latest_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_A/monet_johnson_104_latest_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_B/monet_johnson_104_latest_rec_B.jpg) | 
 
 
-Test Set
------------------------------------------
+### Test Set
 
 | Real Orange | Fake Apple | Reconstruction |
 |:---:|:---:|:---------:|
@@ -139,11 +121,9 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_B/monet_johnson_101_latest_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_A/monet_johnson_101_latest_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_B/monet_johnson_101_latest_rec_B.jpg) |
 
 
-Summer to Winter Yosemite
-=============================
+## Summer to Winter Yosemite
 
-Train Set
--------------------------------
+### Train Set
 
 | Real Summer | Fake Winter | Reconstruction |
 |:---:|:---:|:---:|
@@ -152,8 +132,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_A/2011-06-27-23-17-41.jpg)  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_B/2011-06-27-23-17-41.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_A/2011-06-27-23-17-41.jpg) | 
 
 
-Test Set
-------------------------------
+### Test Set
 
 | Real Summer | Fake Winter | Reconstruction |
 |:---:|:---:|:---:|
@@ -162,11 +141,9 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_A/2012-06-14-05-38-40.jpg)  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_B/2012-06-14-05-38-40.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_A/2012-06-14-05-38-40.jpg) | 
 
 
-Winter to Summer Yosemite
-=============================
+## Winter to Summer Yosemite
 
-Train Set
--------------------------------
+### Train Set
 
 | Real Winter | Fake Summer | Reconstruction |
 |:---:|:---:|:---:|
@@ -175,8 +152,7 @@ Train Set
 | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/real_B/2016-08-02-19-50-33.jpg)  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/fake_A/2016-08-02-19-50-33.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/train/rec_B/2016-08-02-19-50-33.jpg) |
 
 
-Test Set
-------------------------------
+### Test Set
 
 | Real Winter | Fake Summer | Reconstruction |
 |:---:|:---:|:---:|
@@ -185,8 +161,7 @@ Test Set
 | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/real_B/2012-06-14-05-38-40.jpg)  | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/fake_A/2012-06-14-05-38-40.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/summer2winter_yosemite/test/rec_B/2012-06-14-05-38-40.jpg) |
 
 
-Style Transfer (Test Set)
-==============================
+## Style Transfer (Test Set)
 
 | Artist | Original | Style Transferred | Reconstruction |
 |:---:|:---:|:---:|:---:|
