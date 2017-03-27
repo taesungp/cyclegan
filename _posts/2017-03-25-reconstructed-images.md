@@ -102,9 +102,9 @@ Train Set
 
 | Real Apple | Fake Orange | Reconstruction |
 |:---:|:---:|:---------:|
-| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_102_latest_real_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_102_latest_fake_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_102_latest_rec_A.jpg | 
-| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_103_latest_real_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_103_latest_fake_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_103_latest_rec_A.jpg | 
-| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_104_latest_real_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_104_latest_fake_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_104_latest_rec_A.jpg | 
+| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_102_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_102_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_102_latest_rec_A.jpg)| 
+| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_103_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_103_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_103_latest_rec_A.jpg)| 
+| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/real_A/monet_johnson_104_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/fake_B/monet_johnson_104_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/train/rec_A/monet_johnson_104_latest_rec_A.jpg)| 
 
 
 Test Set
@@ -112,9 +112,9 @@ Test Set
 
 | Real Apple | Fake Orange | Reconstruction |
 |:---:|:---:|:---------:|
-| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_0_latest_real_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_0_latest_fake_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_0_latest_rec_A.jpg | 
-| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_100_latest_real_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_100_latest_fake_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_100_latest_rec_A.jpg | 
-| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_101_latest_real_A.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_101_latest_fake_B.jpg | ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_101_latest_rec_A.jpg |
+| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_0_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_0_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_0_latest_rec_A.jpg)| 
+| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_100_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_100_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_100_latest_rec_A.jpg)| 
+| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/real_A/monet_johnson_101_latest_real_A.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/fake_B/monet_johnson_101_latest_fake_B.jpg)| ![]({{site.baseurl}}/images/reconstructed-images/apple2orange/test/rec_A/monet_johnson_101_latest_rec_A.jpg)|
 
 Orange to Apple
 ======================================
@@ -190,9 +190,9 @@ Style Transfer (Test Set)
 
 | Artist | Original | Style Transferred | Reconstruction |
 |:---:|:---:|:---:|:---:|
-| | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/1.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/1.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/1.jpg) |
-| | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/10.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/10.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/10.jpg) |
-| | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/20.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/20.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/20.jpg) |
+| Cezanne | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/1.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/1.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/1.jpg) |
+| Ukiyoe | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/10.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/10.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/10.jpg) |
+| Van Gogh | ![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/real_B/20.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/fake_A/20.jpg) |![]({{site.baseurl}}/images/reconstructed-images/style_transfer/test/rec_B/20.jpg) |
 | Monet | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_real_B.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_fake_A.jpg) | ![]({{site.baseurl}}/images/reconstructed-images/monet2photo/test/monet_johnson_104_latest_rec_B.jpg) |
 
 
