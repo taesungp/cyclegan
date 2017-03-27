@@ -9,7 +9,7 @@ dir_name = 'cityscapes-comparison'
 
 def comparison():
 
-  methods = ['bigan', 'cogan', 'cycle', 'pix2pix']
+  methods = ['bigan', 'cogan', 'content_gan', 'l1_gan', 'cycle', 'pix2pix']
   subdirs = ['photo2label', 'label2photo']
 
   for filename in glob.glob('images/%s/%s/target/images/*.jpg' % (dir_name,subdirs[1])):
@@ -24,12 +24,16 @@ def comparison():
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
+           "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
+           "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) |") %
           (dir_name,theotherdir,'target',nameonly,
            dir_name,subdir,methods[0],nameonly,
            dir_name,subdir,methods[1],nameonly,
            dir_name,subdir,methods[2],nameonly,
            dir_name,subdir,methods[3],nameonly,
+           dir_name,subdir,methods[4],nameonly,
+           dir_name,subdir,methods[5],nameonly,
            dir_name,subdir,'target',nameonly,
          ))
     
@@ -42,12 +46,16 @@ def comparison():
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
+           "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
+           "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) " +
            "| ![]({{site.baseurl}}/images/%s/%s/%s/images/%s) |") %
           (dir_name,theotherdir,'target',nameonly,
            dir_name,subdir,methods[0],nameonly,
            dir_name,subdir,methods[1],nameonly,
            dir_name,subdir,methods[2],nameonly,
            dir_name,subdir,methods[3],nameonly,
+           dir_name,subdir,methods[4],nameonly,
+           dir_name,subdir,methods[5],nameonly,
            dir_name,subdir,'target',nameonly,
          ))
 
@@ -100,5 +108,5 @@ def ablation():
 
 
         
-#comparison()
-ablation()
+comparison()
+#ablation()

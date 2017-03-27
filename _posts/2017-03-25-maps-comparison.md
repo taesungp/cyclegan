@@ -6,7 +6,7 @@ title: Comparison of different methods on the Google Maps/Aerial Photos dataset
 ================
 
 * pix2pix is based on aligned method. 
-* "Feature Loss + GAN" uses the GAN loss plus the L1 difference of the activation of ReLU4_2 of a pretrained VGG network. 
+* "feature loss + GAN" uses the GAN loss plus the L1 difference of the activation of ReLU4_2 of a pretrained VGG network. 
 * "pixel loss + GAN" uses the GAN loss plus the L1 difference loss of the pixels of the input and output images. 
 
 | Input | BiGAN | CoGAN | feature loss + GAN | pixel loss + GAN | CycleGAN | pix2pix | Ground Truth |
