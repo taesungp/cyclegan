@@ -39,11 +39,39 @@ def show_both_directions():
   
 def show_cherrypick():
   # cherrypick list
-  filenumbers = [719,1288,755,933,1262,1122,312,911,367,939,718,946,952,986,1016,556,1105,889,685,1259,989,743,
-                 414,94,261,221,257,791,978,873,758,141,775,336,1031,1082,364,
-                 32,887,348,1129,35,711,634,857,92,968,385,712,1017,548,981,1303,973,272,
-                 157,113,26,777,194,1159,195,809,706,1146,736,269,745,284,748,938]
-                 
+  #filenumbers = [719,1288,755,933,1262,1122,312,911,367,939,718,946,952,986,1016,556,1105,889,685,1259,989,743,
+  #               414,94,261,221,257,791,978,873,758,141,775,336,1031,1082,364,
+  #               32,887,348,1129,35,711,634,857,92,968,385,712,1017,548,981,1303,973,272,
+  #               157,113,26,777,194,1159,195,809,706,1146,736,269,745,284,748,938]
+
+  dir_name = 'monet-to-photo-512-small-idt'
+  filenumbers = [933,
+                 26,
+                 18,
+                 719,
+                 173,
+                 704,
+                 1288,
+                 755,
+                 735,
+                 735,
+                 895,
+                 1009,
+                 855,
+                 809,
+                 1041,
+                 711,
+                 34,
+                 398,
+                 745,
+                 312,
+                 414 ,
+                 911,
+                 791,
+                 239,
+                 1232,
+                 685]
+  
   for filenumber in filenumbers:
     nameonly = '%05d.png' % filenumber
     print("| %s | ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | " % 
@@ -97,7 +125,7 @@ def show_gatys_comparison():
            ))
 
 def show_facades():
-  dir_name = 'facades/test'
+  dir_name = 'facades_everything/test'
   idx = 0  
   for filename in glob.glob(os.path.join("images/" + dir_name + "/real_A/", "*.jpg")):
     nameonly = os.path.basename(filename)
@@ -115,4 +143,5 @@ def show_facades():
 
 #show_idt_comparison()
 #show_both_directions()
-show_facades()
+#show_facades()
+show_cherrypick()
