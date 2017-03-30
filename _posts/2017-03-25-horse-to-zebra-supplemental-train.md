@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Horse <-> Zebra. Train set. 
+title: Horse to Zebra. Train set. 
 ---
 {{ page.title }}
 ================

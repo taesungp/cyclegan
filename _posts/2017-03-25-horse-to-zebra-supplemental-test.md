@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Horse <-> Zebra. Test set. 
+title: Horse to Zebra. Test set. 
 ---
 {{ page.title }}
 ================

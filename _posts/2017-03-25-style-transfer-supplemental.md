@@ -5,6 +5,8 @@ title: Style Transfer
 {{ page.title }}
 ================
 
+Style transfer results on the author's personal photos. (test set)
+
 | id | Photo | Ukiyo-e | Van Gogh | Cezanne | Monet |
 |---:|:---------:|:----------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/style-transfer-supplemental/original/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/ukiyoe/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/vangogh/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/cezanne/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/monet/117.jpg) |                                    

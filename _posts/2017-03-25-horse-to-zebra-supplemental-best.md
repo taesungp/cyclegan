@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Horse <-> Zebra. Good Results on the train set. 
+title: Horse to Zebra
 ---
 {{ page.title }}
 ================
+
+Best results of unsupervised image alignment on the train set. 
 
 | id | Real | Fake | Real | Fake |
 |---:|:---------:|:----------:|:----------:|:----------:|

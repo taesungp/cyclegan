@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Apple to Orange. Good results on the train set.
+title: Apple to Orange.
 ---
 {{ page.title }}
 ================
+
+Best results of unsupervised image alignment on the train set. 
 
 | id | Real | Fake | Real | Fake |
 |---:|:---------:|:----------:|:----------:|:----------:|
