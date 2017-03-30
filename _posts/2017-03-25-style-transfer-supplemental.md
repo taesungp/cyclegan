@@ -5,7 +5,7 @@ title: Style Transfer
 {{ page.title }}
 ================
 
-| id | Photo | Monet | Van Gogh | Ukiyo-e | Cezanne |
+| id | Photo | Ukiyo-e | Van Gogh | Cezanne | Monet |
 |---:|:---------:|:----------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/style-transfer-supplemental/original/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/ukiyoe/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/vangogh/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/cezanne/117.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/monet/117.jpg) |                                    
 | 2 | ![]({{site.baseurl}}/images/style-transfer-supplemental/original/110.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/ukiyoe/110.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/vangogh/110.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/cezanne/110.jpg) | ![]({{site.baseurl}}/images/style-transfer-supplemental/monet/110.jpg) |                                    
