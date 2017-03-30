@@ -141,8 +141,21 @@ def show_facades():
            dir_name,nameonly,
          ))
   
-
 def show_flower():
+  dir_name = 'iphone-to-dslr-flower'
+  idx = 0  
+  for filename in glob.glob(os.path.join("images/" + dir_name + "/test/real_A/", "*.jpg")):
+    nameonly = os.path.basename(filename)
+    idx += 1
+    
+    ## Style transfer
+    print("| %d | ![]({{site.baseurl}}/images/%s/test/real_A/%s) | ![]({{site.baseurl}}/images/%s/test/fake_B/%s) |" % 
+          (idx, dir_name,nameonly, 
+           dir_name,nameonly,
+         ))
+    
+
+def show_flower_cherrypicked():
   dir_name = 'iphone-to-dslr-flower'
   
   cherrypick = ['c1.staticflickr.com-1-763-32581865124_8e80b0e0f2.jpg',
@@ -249,5 +262,5 @@ def show_vividcolor():
 #show_idt_comparison()
 #show_both_directions()
 #show_facades()
-#show_flower()
-show_vividcolor()
+show_flower()
+#show_vividcolor()
