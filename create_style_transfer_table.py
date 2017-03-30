@@ -9,7 +9,7 @@ import random
 
 def create_style_transfer():
   idx = 0
-  dir_name = 'style-transfer-alyosha'
+  dir_name = 'style-transfer-train'
   for filename in glob.glob(os.path.join("images/" + dir_name + "/original/", "*.jpg")):
     nameonly = os.path.basename(filename)
     idx += 1
