@@ -6,7 +6,7 @@ title: Movie still photos with Renoir style
 ================
 
 From the movie Beauty and the Beast, 2017.
-
+Trained on the paintings of Renoir from Wikiart.org and selfie photos from Flickr.
 
 | id | Photo | Renoir Style |
 |---:|:---------:|:----------:|:----------:|:----------:|:----------:|
