@@ -5,7 +5,7 @@ title: Change of Depth of Field in flower photos taken by iPhone
 {{ page.title }}
 ================
 
-Best results of photo enhancement (test set)
+<p class="meta"> Best results of photo enhancement (test set) </p>
 
 | id | Original | Enhanced |
 |---:|:---------:|:----------:|

@@ -7,7 +7,7 @@ import random
 #from skimage import io, color
 
 
-dir_name = 'monet-to-photo-512-small-idt-testset'
+dir_name = 'monet-to-photo-512-small-idt'
 
 def show_one_direction():
   idx = 0
@@ -16,8 +16,8 @@ def show_one_direction():
     idx += 1
     
     ## Style transfer
-    print("| %s | ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | " % 
-          (nameonly, dir_name,nameonly, 
+    print("| %d | ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | " % 
+          (idx, dir_name,nameonly, 
            dir_name,nameonly))
 
 def show_both_directions():
@@ -74,10 +74,10 @@ def show_cherrypick():
 
   filenumbers.extend(f for f in filenumbers2 if f not in filenumbers)
   
-  for filenumber in filenumbers:
+  for i,filenumber in enumerate(filenumbers):
     nameonly = '%05d.png' % filenumber
-    print("| %s | ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | " % 
-          (nameonly, dir_name,nameonly, 
+    print("| %d | ![]({{site.baseurl}}/images/%s/real_A/%s) | ![]({{site.baseurl}}/images/%s/fake_B/%s) | " % 
+          (i, dir_name,nameonly, 
            dir_name,nameonly))
 
 def show_idt_comparison():
@@ -262,5 +262,8 @@ def show_vividcolor():
 #show_idt_comparison()
 #show_both_directions()
 #show_facades()
-show_flower()
+#show_flower()
+
 #show_vividcolor()
+#show_cherrypick()
+show_one_direction()

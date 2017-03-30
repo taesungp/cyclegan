@@ -5,7 +5,7 @@ title: Horse to Zebra
 {{ page.title }}
 ================
 
-Best results of unsupervised image alignment on the train set. 
+<p class="meta"> Best results of unsupervised image alignment on the train set. </p>
 
 | id | Real Horse | Generated Zebra | Real Zebra | Generated Horse |
 |---:|:---------:|:----------:|:----------:|:----------:|

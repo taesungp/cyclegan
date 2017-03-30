@@ -5,7 +5,7 @@ title: Summer to Winter Yosemite.
 {{ page.title }}
 ================
 
-Best results of unsupervised image alignment on the train set. 
+<p class="meta"> Best results of unsupervised image alignment on the train set.</p>
 
 | id | Real Summer | Generated Winter | Real Winter | Generated Summer |
 |---:|:---------:|:----------:|:----------:|:----------:|

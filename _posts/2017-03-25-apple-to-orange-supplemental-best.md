@@ -5,7 +5,7 @@ title: Apple to Orange.
 {{ page.title }}
 ================
 
-Best results of unsupervised image alignment on the train set. 
+<p class="meta"> Best results of unsupervised image alignment on the train set. </p>
 
 | id | Real Apple | Generated Orange | Real Orange | Generated Apple |
 |---:|:---------:|:----------:|:----------:|:----------:|
