@@ -5,7 +5,7 @@ title: Summer to Winter Yosemite. Test Set.
 {{ page.title }}
 ================
 
-| id | Real Summer | Generated Winter | Real Winter | Generated Winter |
+| id | Real Summer | Generated Winter | Real Winter | Generated Summer |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/yosemite-supplemental/test/real_A/2015-07-08-10:20:10.jpg) | ![]({{site.baseurl}}/images/yosemite-supplemental/test/fake_B/2015-07-08-10:20:10.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/test/real_B/2015-07-08-10:20:10.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/test/fake_A/2015-07-08-10:20:10.jpg) | 
 | 2 | ![]({{site.baseurl}}/images/yosemite-supplemental/test/real_A/2011-08-29-17:50:50.jpg) | ![]({{site.baseurl}}/images/yosemite-supplemental/test/fake_B/2011-08-29-17:50:50.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/test/real_B/2011-08-29-17:50:50.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/test/fake_A/2011-08-29-17:50:50.jpg) | 

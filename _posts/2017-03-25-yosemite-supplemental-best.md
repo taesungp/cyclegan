@@ -7,7 +7,7 @@ title: Summer to Winter Yosemite.
 
 Best results of unsupervised image alignment on the train set. 
 
-| id | Real Summer | Generated Winter | Real Winter | Generated Winter |
+| id | Real Summer | Generated Winter | Real Winter | Generated Summer |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/real_A/2012-07-20-23:06:36.jpg) | ![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/fake_B/2012-07-20-23:06:36.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/real_B/2015-08-31-14:57:21.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/fake_A/2015-08-31-14:57:21.jpg) | 
 | 2 | ![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/real_A/2011-09-03-16:40:04.jpg) | ![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/fake_B/2011-09-03-16:40:04.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/real_B/2014-06-07-02:12:44.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train_cherrypicked/fake_A/2014-06-07-02:12:44.jpg) | 
