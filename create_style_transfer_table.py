@@ -26,10 +26,10 @@ def create_style_transfer():
       print(("| %d | ![]({{site.baseurl}}/images/%s/original/%s) | ![]({{site.baseurl}}/images/%s/%s/%s) | ![]({{site.baseurl}}/images/%s/%s/%s) " + 
              "| ![]({{site.baseurl}}/images/%s/%s/%s) | ![]({{site.baseurl}}/images/%s/%s/%s) |") % 
             (idx, dir_name,nameonly, 
-             dir_name, 'ukiyoe', nameonly,
+             dir_name, 'monet', nameonly,
              dir_name, 'vangogh', nameonly,
              dir_name, 'cezanne', nameonly, 
-             dir_name, 'monet', nameonly
+             dir_name, 'ukiyoe', nameonly,
            ))
 
 def create_renoir2selfie():
@@ -47,5 +47,6 @@ def create_renoir2selfie():
             dir_name, 'renoir', nameonly,
           )))
 
-create_renoir2selfie()
+#create_renoir2selfie()
+create_style_transfer()
   
