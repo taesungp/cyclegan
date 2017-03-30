@@ -198,7 +198,8 @@ def show_flower():
     
 def show_vividcolor():
   dir_name = 'aadb-vividcolor'
-  cherrypick = ['farm1_310_19977833649_f2a2457720_b.jpg',
+  cherrypick = ['farm1_299_19537238303_8d204921a1_b.jpg',
+                'farm1_310_19977833649_f2a2457720_b.jpg',
                 'farm1_353_20053224236_bde4dfffa1_b.jpg',
                 'farm1_275_19535031503_7438172860_b.jpg',
                 'farm1_336_19587650813_7c1cc8a6f1_b.jpg',
