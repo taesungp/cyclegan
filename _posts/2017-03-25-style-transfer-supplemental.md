@@ -5,7 +5,7 @@ title: Style Transfer
 {{ page.title }}
 ================
 
-Style transfer results on the author's personal photos. (test set)
+<p class="meta"> Style transfer results on the author's personal photos. (test set) </p>
 
 | id | Photo | Monet | Van Gogh | Cezanne | Ukiyo-e |
 |---:|:---------:|:----------:|:----------:|:----------:|:----------:|
