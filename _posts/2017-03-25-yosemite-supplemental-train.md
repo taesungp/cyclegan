@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer <-> Winter Yosemite. Train Set.
+title: Summer to Winter Yosemite. Train Set.
 ---
 {{ page.title }}
 ================

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer <-> Winter Yosemite. Test Set.
+title: Summer to Winter Yosemite. Test Set.
 ---
 {{ page.title }}
 ================

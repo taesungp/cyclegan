@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Summer <-> Winter Yosemite. Good results on the train set.
+title: Summer to Winter Yosemite. 
 ---
 {{ page.title }}
 ================
+
+Best results of unsupervised image alignment on the train set. 
 
 | id | Real | Fake | Real | Fake |
 |---:|:---------:|:----------:|:----------:|:----------:|
