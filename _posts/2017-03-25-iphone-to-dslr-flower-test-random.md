@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Change of Depth of Field in flower photos taken by iPhone (Random samples from the test set)
+title: Change of Depth of Field in flower photos taken by iPhone 
 ---
 {{ page.title }}
 ================
+
+Random samples from the test set
 
 | id | Original | Enhanced |
 |---:|:---------:|:----------:|
