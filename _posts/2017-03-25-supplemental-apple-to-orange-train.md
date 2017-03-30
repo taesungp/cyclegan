@@ -5,7 +5,7 @@ title: Apple <-> Orange. Train Set.
 {{ page.title }}
 ================
 
-| id | Real Apple | Fake Orange | Real Orange | Fake Apple |
+| id | Real Apple | Generated Orange | Real Orange | Generated Apple |
 |---:|:---------:|:----------:|:---------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_548_latest_real_A.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_548_latest_fake_B.jpg) |![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_548_latest_real_B.jpg) |![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_548_latest_fake_A.jpg) | 
 | 2 | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_815_latest_real_A.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_815_latest_fake_B.jpg) |![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_815_latest_real_B.jpg) |![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_815_latest_fake_A.jpg) | 

@@ -5,7 +5,7 @@ title: Horse to Zebra. Train set.
 {{ page.title }}
 ================
 
-| id | Real | Fake | Real | Fake |
+| id | Real Horse | Generated Zebra | Real Zebra | Generated Horse |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/real_A/horse2zebra_567_50_real_A.jpg) | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/fake_B/horse2zebra_567_50_fake_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/real_B/horse2zebra_567_50_real_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/fake_A/horse2zebra_567_50_fake_A.jpg) | 
 | 2 | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/real_A/horse2zebra_1003_50_real_A.jpg) | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/fake_B/horse2zebra_1003_50_fake_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/real_B/horse2zebra_1003_50_real_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/train/fake_A/horse2zebra_1003_50_fake_A.jpg) | 

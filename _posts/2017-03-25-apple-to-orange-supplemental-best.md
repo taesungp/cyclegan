@@ -7,7 +7,7 @@ title: Apple to Orange.
 
 Best results of unsupervised image alignment on the train set. 
 
-| id | Real | Fake | Real | Fake |
+| id | Real Apple | Generated Orange | Real Orange | Generated Apple |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_42_latest_real_A.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_42_latest_fake_B.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_42_latest_real_B.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_42_latest_fake_A.jpg) |
 | 2 | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_136_latest_real_A.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_136_latest_fake_B.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_85_latest_real_B.jpg) | ![]({{site.baseurl}}/images/apple-to-orange-supplemental/train/monet_johnson_85_latest_fake_A.jpg) |

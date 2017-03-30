@@ -5,7 +5,7 @@ title: Horse to Zebra. Test set.
 {{ page.title }}
 ================
 
-| id | Real | Fake | Real | Fake |
+| id | Real Horse | Generated Zebra | Real Zebra | Generated Horse |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/real_A/horse2zebra_76_50_real_A.jpg) | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/fake_B/horse2zebra_76_50_fake_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/real_B/horse2zebra_76_50_real_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/fake_A/horse2zebra_76_50_fake_A.jpg) | 
 | 2 | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/real_A/horse2zebra_99_50_real_A.jpg) | ![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/fake_B/horse2zebra_99_50_fake_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/real_B/horse2zebra_99_50_real_B.jpg) |![]({{site.baseurl}}/images/horse-to-zebra-supplemental/test/fake_A/horse2zebra_99_50_fake_A.jpg) | 

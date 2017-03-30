@@ -5,7 +5,7 @@ title: Summer to Winter Yosemite. Train Set.
 {{ page.title }}
 ================
 
-| id | Real | Fake | Real | Fake |
+| id | Real Summer | Generated Winter | Real Winter | Generated Winter |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 1 | ![]({{site.baseurl}}/images/yosemite-supplemental/train/real_A/2014-07-30-22:20:53.jpg) | ![]({{site.baseurl}}/images/yosemite-supplemental/train/fake_B/2014-07-30-22:20:53.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train/real_B/2014-07-30-22:20:53.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train/fake_A/2014-07-30-22:20:53.jpg) | 
 | 2 | ![]({{site.baseurl}}/images/yosemite-supplemental/train/real_A/2011-06-14-11:10:27.jpg) | ![]({{site.baseurl}}/images/yosemite-supplemental/train/fake_B/2011-06-14-11:10:27.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train/real_B/2011-06-14-11:10:27.jpg) |![]({{site.baseurl}}/images/yosemite-supplemental/train/fake_A/2011-06-14-11:10:27.jpg) | 

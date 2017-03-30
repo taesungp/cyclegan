@@ -5,7 +5,7 @@ title: Apple to Orange (Test set)
 {{ page.title }}
 ================
 
-| id | Real Apple | Fake Orange | Real Orange | Fake Apple |
+| id | Real Apple | Generated Orange | Real Orange | Generated Apple |
 |---:|:---------:|:----------:|:----------:|:----------:|
 | 10 | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_10_latest_real_A.png) | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_10_latest_fake_B.png) | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_10_latest_real_B.png) | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_10_latest_fake_A.png) |
 | 11 | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_11_latest_real_A.png) | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_11_latest_fake_B.png) | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_11_latest_real_B.png) | ![]({{site.baseurl}}/images/apple-to-orange/test/monet_johnson_11_latest_fake_A.png) |
